@@ -335,10 +335,10 @@ section.active {
     align-items: center;
 }
 
-.img-certi {
-    background-position: center;
-    background-size: cover;
-    border-color: var(--main-color);
+.img-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .services-box .icon {
